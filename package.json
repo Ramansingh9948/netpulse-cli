@@ -1,0 +1,50 @@
+{
+  "name": "netpulse",
+  "version": "1.0.0",
+  "description": "Live network monitoring in your terminal — See which apps are connecting where, real-time bandwidth graphs, and suspicious IP detection",
+  "bin": {
+    "netpulse": "./bin/netpulse.js"
+  },
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node bin/netpulse.js",
+    "watch": "node bin/netpulse.js watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "network",
+    "monitoring",
+    "cli",
+    "terminal",
+    "dashboard",
+    "bandwidth",
+    "connections",
+    "privacy",
+    "netpulse"
+  ],
+  "author": "Raman Singh",
+  "license": "MIT",
+  "dependencies": {
+    "arpjs": "^1.2.0",
+    "asciichart": "^1.5.25",
+    "cap": "^0.2.1",
+    "chalk": "^4.1.2",
+    "dns-socket": "^4.2.2",
+    "netmask": "^2.1.1",
+    "systeminformation": "^5.31.5"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramansingh/netpulse"
+  },
+  "bugs": {
+    "url": "https://github.com/ramansingh/netpulse/issues"
+  },
+  "homepage": "https://github.com/ramansingh/netpulse#readme"
+}
