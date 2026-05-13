@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Live network monitoring in your terminal — See which apps are connecting where, real-time bandwidth graphs, and suspicious IP detection",
   "bin": {
+    "boss":     "node bin/index.js boss",
+"boss:spy": "sudo node bin/index.js boss --spy",
+"dhcp":     "node bin/index.js dhcp",
     "netpulse": "./bin/netpulse.js"
   },
   "main": "src/index.js",
